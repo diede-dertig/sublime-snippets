@@ -1,0 +1,77 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE html>
+
+<html lang="\$ContentLocale">
+
+	<head>
+
+		<% base_tag %>
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title><% if \$MetaTitle %>\$MetaTitle<% else %>\$Title<% end_if %> &raquo; \$SiteConfig.Title</title>
+		
+		<!--
+		        -+shmNNNNmhs/.                            
+		     :yNMMMMMMMMMMMMMMms-                         
+		   :dMMMMMMMMMMMMMMMMMMMMh.                       
+		  oMMMMMMMMMNdhhdNMMMMMMMMM+                      
+		 `ohNMMMMm+.      -oNMMMMMMM+                     
+		     -+ys`          `hMMMMMMNoyhdmmmdhy+:`        
+		                     `NMMMMMMMMMMMMMMMMMMNh/      
+		                      dMMMMMMMMMMMMMMMMMMMMMm/    
+		                     .MMMMMMMMMMNdddNMMMMMMMMMd`  
+		                    .mMMMMMMMd/`     `/dMMMMMMMm` 
+		                    hMMMMMMN:           /MMMMMMMy 
+		                   .MMMMMMM/             +MMMMMMN`
+		                   -MMMMMMM.             -MMMMMMM.
+		                   `MMMMMMMo             sMMMMMMN`
+		                    yMMMMMMMo           oMMMMMMMs 
+		                    `dMMMMMMMmo-`   `:oNMMMMMMMd` 
+		                     `NMMMMMMMMMMNNNMMMMMMMMMMy`  
+		                      dMMMMMMMMMMMMMMMMMMMMMd:    
+		                     .MMMMMMMMMMMMMMMMMMMms-      
+		    ./ymd.          -mMMMMMMN/osyhhhys+:`         
+		 `yNMMMMMMy/.    ./hMMMMMMMM:                     
+		  /NMMMMMMMMMMNNMMMMMMMMMMm-                      
+		   .yMMMMMMMMMMMMMMMMMMMNo`                       
+		     `+dMMMMMMMMMMMMMNh/`                         
+		        `-+syhddhyo/-  
+		
+						
+						Dertig Media - 2015
+		
+		-->
+		
+
+		\$MetaTags(false)
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+		<link rel="shortcut icon" href="\$ThemeDir/images/favicon.ico" type="image/x-icon" />
+
+	</head>
+
+	<body class="\$ClassName">
+
+		<!-- PAGE -->
+		<div id="page">
+
+			<% include Header %>
+
+			\$Layout
+
+			<% include Footer %>
+
+		</div>
+		<!-- end PAGE -->
+
+	</body>
+
+</html>
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
