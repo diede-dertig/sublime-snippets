@@ -7,28 +7,6 @@
         "gutter_theme_excludes": [],
         "lint_mode": "background",
         "linters": {
-            "clang": {
-                "@disable": true,
-                "args": [],
-                "excludes": [],
-                "extra_flags": "",
-                "include_dirs": [
-                    "/usr/include/gtk-3.0"
-                ]
-            },
-            "cppcheck": {
-                "@disable": false,
-                "args": [],
-                "enable": "style",
-                "excludes": [],
-                "std": []
-            },
-            "cpplint": {
-                "@disable": true,
-                "args": [],
-                "excludes": [],
-                "filter": ""
-            },
             "jshint": {
                 "@disable": false,
                 "args": [],
@@ -44,7 +22,10 @@
         "no_column_highlights_line": false,
         "passive_warnings": false,
         "paths": {
-            "linux": [],
+            "linux": [
+                "/usr/local/bin/jshint",
+                "/usr/bin/php"
+            ],
             "osx": [],
             "windows": []
         },
