@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+\$image = new UploadField('Image', 'Afbeelding');
+\$image_validator = new Upload_Validator();
+\$image_validator->setAllowedExtensions(array('jpg', 'jpeg', 'png'));
+\$image->setValidator(\$image_validator);
+\$image->setFolderName('CMS/Afbeeldingen');
+\$image->setRightTitle('Afbeelding wordt geknipt en geschaald naar ...');
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
